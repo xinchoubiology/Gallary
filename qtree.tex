@@ -1,0 +1,18 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+
+\begin{document}
+\begin{tikzpicture}
+\Tree [.expr [.expr [.expr [.term 9 [.$\left\{print\left\{`9`\right\}\right\}$ ] ] ] 
+			      - 
+			      [.term 5
+			      		 [.$\left\{print\left\{`5`\right\}\right\}$ ] ] 
+			      [.$\left\{print\left\{`-`\right\}\right\}$ ] ] 
+		    +
+		    [.term 2 [.$\left\{print\left\{`2`\right\}\right\}$ ] ] 
+		    [.$\left\{print\left\{`+`\right\}\right\}$ ] ] ]
+\end{tikzpicture}
+\end{document}
+
