@@ -1,0 +1,7 @@
+###############
+#  fixed file #
+###############
+*.aux
+*.log
+*.pdf
+*.synctex.gz

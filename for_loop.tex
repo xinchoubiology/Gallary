@@ -1,0 +1,21 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+
+\begin{document}
+\begin{tikzpicture}
+\Tree [.stmt \bf{for} 
+		    (   
+		    [.optexpr $\epsilon$ ] 
+		    ;
+		    [.optexpr \bf{expr} ]   
+		    ; 
+		    [.optexpr \bf{expr} ] 
+		    ) 
+		    [.stmt \bf{other} ]	    
+		]
+
+\end{tikzpicture}
+\end{document}
+
